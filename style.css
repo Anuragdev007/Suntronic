@@ -23,6 +23,18 @@
     font-weight: 400;
 
   }
+  .centered-3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.1em;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    font-weight: 400;
+
+  }
  .para{
   display: flex;
   align-items: center;
@@ -564,6 +576,11 @@ section.client .section-title {
    margin-top: 1rem;
    
   }
+  .centered-3 {
+    font-size : 25px !important;
+    margin-top: 1rem;
+   
+   }
   .centered-2 {
     font-size : 25px !important;
     margin-top: 1rem;
@@ -897,7 +914,9 @@ color: #fff;
   font-weight:500 ;
 }
 
-
+.centered-form{
+  width: 24%;
+}
 .social-link {
   width: 30px;
   height: 30px;
@@ -932,6 +951,8 @@ color: #fff;
 }
 
 #contact input[type="text"],
+
+#contact input[type="number"],
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact input[type="url"],
@@ -975,6 +996,8 @@ fieldset {
 }
 
 #contact input[type="text"],
+
+#contact input[type="number"],
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact input[type="url"],
