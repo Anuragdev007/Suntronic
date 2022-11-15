@@ -160,12 +160,13 @@
             >
               <h3>Contact Us</h3>
               <h4>Contact us for custom quote</h4>
+
               <fieldset>
                 <input
-                  id="name"
                   placeholder="Your name"
                   type="text"
                   tabindex="1"
+                  name="name"
                   required
                   autofocus
                   style="background-color: transparent; color: white"
@@ -174,6 +175,7 @@
               <fieldset>
                 <input
                   id="email"
+                  name="email"
                   placeholder="Your Email Address"
                   type="email"
                   tabindex="2"
@@ -184,6 +186,7 @@
               <fieldset>
                 <input
                   id="phone"
+                  name="phone"
                   placeholder="Phone No."
                   type="number"
                   tabindex="2"
@@ -195,6 +198,7 @@
               <fieldset>
                 <textarea
                   id="message"
+                  name="message"
                   placeholder="Type your message here...."
                   tabindex="5"
                   required
@@ -227,14 +231,20 @@
             >
           </div>
           <div class="centered-form">
-            <form id="contact" action="" method="post">
+            <form
+              id="contact"
+              action="https://formsubmit.co/contact@suntronicsolar.com"
+              method="POST"
+            >
               <h3>Contact Us</h3>
               <h4>Contact us for custom quote</h4>
+
               <fieldset>
                 <input
                   placeholder="Your name"
                   type="text"
                   tabindex="1"
+                  name="name"
                   required
                   autofocus
                   style="background-color: transparent; color: white"
@@ -242,6 +252,8 @@
               </fieldset>
               <fieldset>
                 <input
+                  id="email"
+                  name="email"
                   placeholder="Your Email Address"
                   type="email"
                   tabindex="2"
@@ -251,6 +263,8 @@
               </fieldset>
               <fieldset>
                 <input
+                  id="phone"
+                  name="phone"
                   placeholder="Phone No."
                   type="number"
                   tabindex="2"
@@ -261,6 +275,8 @@
 
               <fieldset>
                 <textarea
+                  id="message"
+                  name="message"
                   placeholder="Type your message here...."
                   tabindex="5"
                   required
@@ -517,22 +533,39 @@
             </p>
           </div>
         </div>
+
         <div class="col-lg-6">
           <form
             class="row g-3 mt-5"
-            onsubmit="sendEmail(); reset(); return false"
+            action="https://formsubmit.co/contact@suntronicsolar.com"
+            method="POST"
           >
             <div class="col-md-6">
               <label for="inputEmail4" class="form-label">Name</label>
-              <input type="text" class="form-control" id="inputEmail4" />
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                id="inputEmail4"
+              />
             </div>
             <div class="col-md-6">
               <label for="inputPassword4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputPassword4" />
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                id="inputPassword4"
+              />
             </div>
             <div class="col-6">
               <label for="inputPassword4" class="form-label">Phone no.</label>
-              <input type="number" class="form-control" id="phone" />
+              <input
+                type="number"
+                name="phone"
+                class="form-control"
+                id="phone"
+              />
             </div>
             <div class="col-6">
               <label for="inputAddress2" class="form-label">Address 2</label>
@@ -540,6 +573,7 @@
                 type="text"
                 class="form-control"
                 id="address"
+                name="address"
                 placeholder="Apartment, studio, or floor"
               />
             </div>
@@ -547,7 +581,12 @@
               <label for="exampleFormControlTextarea1" class="form-label"
                 >Subject</label
               >
-              <textarea class="form-control" id="message" rows="3"></textarea>
+              <textarea
+                class="form-control"
+                name="subject"
+                id="message"
+                rows="3"
+              ></textarea>
             </div>
             <div class="col-12">
               <label for="exampleFormControlTextarea1" class="form-label"
@@ -556,6 +595,7 @@
               <textarea
                 class="form-control"
                 id="exampleFormControlTextarea1"
+                name="message"
                 rows="3"
               ></textarea>
             </div>
