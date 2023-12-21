@@ -83,6 +83,11 @@ p {
   color: #f0f0f0;
 }
 @media screen and (min-width: 768px) {
+  .team-section {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
   .section-service {
     padding: 0 2em;
   }
