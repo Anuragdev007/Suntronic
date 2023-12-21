@@ -83,11 +83,7 @@ p {
   color: #f0f0f0;
 }
 @media screen and (min-width: 768px) {
-  .team-section {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-  }
+  
   .section-service {
     padding: 0 2em;
   }
@@ -122,6 +118,15 @@ p {
   }
 
   @media screen and (max-width: 748px) {
+    .team-section {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      justify-content: center !important;
+    }
+    .team-member img {
+      height: 250px !important;
+      
+  }
     .responsive-img{
       width: 330px;
       height: 210px;
