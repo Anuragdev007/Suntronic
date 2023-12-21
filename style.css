@@ -117,9 +117,13 @@ p {
   }
 
   @media screen and (max-width: 748px) {
+    .responsive-img{
+      width: 330px;
+      height: 210px;
+    }
     .about-info{
-      font-size: 16px;
-      line-height: 1.5;
+      font-size: 14px !important;
+   
     }
     .about-icon{
       display: none !important;
@@ -678,8 +682,8 @@ section.client .section-title {
     margin-bottom: 1rem !important;
   }
   .serv-head{
-    font-size: 30px !important;
-    margin-bottom: 2rem !important;
+    font-size: 24px !important;
+    margin-bottom: 1rem !important;
   }
   .centered-form{
     display: none;
