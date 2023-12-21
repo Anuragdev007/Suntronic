@@ -19,9 +19,7 @@
     <link rel="stylesheet" href="newstyle.scss" />
     <link
       rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
+      href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css"
     />
 
     <link
@@ -79,12 +77,21 @@
                 >Services</a
               >
             </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="project.html"
+                style="color: #757575"
+                >Major Projects</a
+              >
+            </li>
 
             <li class="nav-item">
               <a
                 class="nav-link"
                 aria-current="page"
-                href="#team"
+                href="team.html"
                 style="color: #757575"
                 >Our Team</a
               >
@@ -143,7 +150,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="assests/ban2.jpeg"
+            src="assests/newback1.png"
             class="d-block w-100"
             alt="..."
             height="400px"
@@ -152,21 +159,20 @@
             Build With
             <span style="color: #ffb526">Trust</span><br />
           </div>
-          
         </div>
         <div class="carousel-item">
           <img
-            src="assests/sun.jpeg"
+            src="assests/newimage2.jpg"
             class="d-block w-100"
             alt="..."
             height="400px"
           />
           <div class="centered-2">
-            Build With<span style="color: #ffb526; margin-left: 0.5rem"
-              >Suntronic</span
+            Partner for a
+            <span style="color: #ffb526; margin-left: 0.5rem"
+              >Greener Future</span
             >
           </div>
-        
         </div>
       </div>
       <button
@@ -190,41 +196,66 @@
     </div>
 
     <!---------About------------>
-    <div
-      class="container mt-5 mb-5"
-      id="about"
-      style="background-color: #f4fafa"
-    >
-      <div class="banner-1">
-        <img src="assests/about.jpg" alt="" class="img-fluid" />
-        <div class="centered-3">About Suntronic Solar</div>
+    <!-- <div class="container mt-5 mb-5" >
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <img src="assests/aboutus.jpg" height="500" />
+        </div>
+        <div class="col-md-6 col-12">
+          <h2>About Us</h2>
+        </div>
       </div>
-      <div class="para">
-        <p class="mt-3 mb-5">
-          Suntronic Solar is a leading and most trusted Solar EPC and I&C
-          service provider company founded by professional technocrats from
-          engineering, energy, management and marketing fields committed to
-          providing clean, affordable solar electricity to individuals,
-          businesses, and utilities in order to support the transition to a
-          sustainable global energy supply. Driven by passion for renewable
-          energy, the founders have united their strengths and years of combined
-          expertise to establish a leading provider of cost-effective,
-          cutting-edge, and high-quality renewable energy solutions in India. At
-          Suntronic, we recognise that making a major investment in solar energy
-          for your house can be challenging. We guarantee to work closely with
-          you at every stage of the procedure and we are there to make sure you
-          have a hassle-free experience. In addition, our empanelment with state
-          nodal agencies enables us to provide subsidies on solar systems for
-          residential customers. With a skilled internal design, engineering,
-          and construction team, as well as extensive industry knowledge and
-          technical proficiency, Suntronic is able to create PV solar plants of
-          any size that are the most economical and energy efficient. With our
-          rapid growth, we aim to become a world leader in the solar industry.
-          By using advanced technology from world - class suppliers, we are able
-          to meet international standard in terms of cost leadership,
-          operational scalability and reliability.
-        </p>
-        <a href="#" class="btn btn-outline-dark mb-5">Get in Touch</a>
+    </div> -->
+    <div class="container">
+      <h2
+        class="mt-5 mb-3 serv-head"
+        id="services"
+        style="border-bottom: 7px solid #edcd1f"
+      >
+        ABOUT US
+      </h2>
+    </div>
+
+    <div class="clearfix mt-3" style="padding: 2rem">
+      <img
+        src="assests/aboutus.jpg"
+        height="500"
+        class="col-md-6 float-md-end mb-3 ms-md-3"
+        alt="..."
+      />
+
+      <div class="demo-solution demo-solution--flexbox">
+        <img
+          width="100"
+          height="50"
+          src="assests/team.png"
+          alt=""
+          class="about-icon"
+        />
+        <span class="about-info" style="color: #575a7b"
+          >Suntronic is founded by a team of dedicated technocrats driven by a
+          passion for excellence in the field of renewable energy. We specialize
+          in providing comprehensive services to EPC (Engineering, Procurement,
+          and Construction) companies, focusing on Design & Engineering
+          Consultancy, Installation & Commissioning, and Operation & Maintenance
+          in the renewable energy sector</span
+        >
+      </div>
+
+      <div class="demo-solution demo-solution--flexbox mt-3">
+        <img
+          width="100"
+          height="50"
+          src="assests/idea.png"
+          alt=""
+          class="about-icon"
+        />
+        <span class="about-info" style="color: #575a7b"
+          >We understand the critical role that design, implementation, and
+          on-going maintenance play in the success of renewable energy projects.
+          Our expertise lies in offering tailored solutions that meet the unique
+          requirements of our clients.</span
+        >
       </div>
     </div>
     <!-------Services-------->
@@ -236,111 +267,73 @@
       >
         OUR SERVICES
       </h2>
-      <div class="container">
-        <div class="row justify-content-md-center service-container">
-          <div class="col-md-auto serv">
-            <div class="res-card">
-              <img
-                src="assests/ut.jpeg"
-                class=""
-                alt="..."
-                height="200px"
-                width="355px !important"
-              />
-              <div class="card-body">
-                <h3 class="mb-5" style="color: #757575">Utility</h3>
+
+      <section class="section-service">
+        <div class="row service-row">
+          <div class="column service-column">
+            <a href="Design.html" style="text-decoration: none"
+              ><div class="cards card">
+                <div class="icon-wrapper">
+                  <i class="fas fa-hammer"></i>
+                </div>
+                <h3>Design & Engineering Consultancy</h3>
+                <p>
+                  We are dedicated to crafting innovative, tailor-made solutions
+                  for the design and engineering of robust solar power plants.
+                </p>
               </div>
-            </div>
+            </a>
           </div>
-          <div class="col-md-auto serv">
-            <div>
-              <img
-                src="assests/ci.jpeg"
-                class="card-img-top"
-                alt="..."
-                height="200px"
-              />
-              <div class="card-body">
-                <h3 class="mb-5" style="color: #757575">C&I</h3>
-              </div>
-            </div>
+          <div class="column service-column">
+            <a href="Design.html" style="text-decoration: none"
+              ><div class="cards card">
+                <div class="icon-wrapper">
+                  <i class="fas fa-brush"></i>
+                </div>
+                <h3>Solar Project Installation & Commissioning</h3>
+                <p>
+                  Executing a successful solar project demands precision and
+                  expertise.
+                </p>
+              </div></a
+            >
           </div>
-          <div class="col-md-auto serv">
-            <div>
-              <img
-                src="assests/res.jpeg"
-                class="card-img-top"
-                alt="..."
-                height="200px"
-              />
-              <div class="card-body">
-                <h3 class="mb-5" style="color: #757575">Residential</h3>
-              </div>
-            </div>
+          <div class="column service-column">
+            <a href="Design.html" style="text-decoration: none"
+              ><div class="cards card">
+                <div class="icon-wrapper">
+                  <i class="fas fa-wrench"></i>
+                </div>
+                <h3>Operation & Maintenance</h3>
+                <p>
+                  Sustainability lies in the ongoing efficiency and longevity of
+                  solar installations.
+                </p>
+              </div></a
+            >
           </div>
         </div>
-      </div>
+      </section>
     </div>
-    <!-- ------Projects------------------
-    <div class="container mb-5">
-      <h2 class="mt-5 mb-5 serv-head" style="border-bottom: 7px solid #edcd1f">
-        OUR PROJECTS
-      </h2>
-      <div class="container">
-        <main class="main">
-          <div class="container">
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="assests/solar-panels-header.png"
-                  alt="Image Gallery"
-                />
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="assests/140imagebackground_image_aersoma7img_20220711122007.jpg"
-                  alt="Image Gallery"
-                />
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="assests/solar-panels-installed-Delhi-metro-station-India_Alamy_RT9XGP.jpg"
-                  alt="Image Gallery"
-                />
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="assests/shutterstock_72500704.0.0.jpg"
-                  alt="Image Gallery"
-                />
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="assests/MotleyFool-TMOT-89791b23-solar-farm-at-sunset.jpg"
-                  alt="Image Gallery"
-                />
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <img
-                  src="assests/solar-panels-header.png"
-                  alt="Image Gallery"
-                />
-              </div>
-            </div>
+
+    <div class="container-fluid mb-5">
+      <a href="project.html"
+        ><div class="container project" style="cursor: pointer">
+          <img
+            src="assests/projectback.jpg"
+            class="d-block w-100"
+            alt="..."
+            height="350px"
+            style="filter: brightness(0.5)"
+          />
+
+          <div class="centered">
+            Major
+            <span style="color: #ffb526; margin-left: 0.5rem">Projects</span>
           </div>
-        </main>
-      </div>
-    </div> -->
+        </div>
+      </a>
+    </div>
 
     <!-------our team------------------------>
     <div class="container">
@@ -352,43 +345,38 @@
         OUR TEAM
       </h2>
     </div>
-    <div class="container">
-      <div class="row pb-5 mb-4">
-        <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
-          <!-- Card-->
-          <div class="card shadow-sm border-0 rounded">
-            <div class="card-body p-0">
-              <img
-                src="assests/hussain.jpeg"
-                alt=""
-                class="w-100 card-img-top"
-              />
-              <div class="p-4">
-                <h5 class="mb-0">Mohammad Hussain</h5>
-                <p class="small text-muted">B.Tech</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    
 
-        <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
-          <!-- Card-->
-          <div class="card shadow-sm border-0 rounded">
-            <div class="card-body p-0">
-              <img
-                src="assests/swapnil.jpg"
-                alt=""
-                class="w-100 card-img-top"
-              />
-              <div class="p-4">
-                <h5 class="mb-0">Swapnil Srivastav</h5>
-                <p class="small text-muted">B.Tech</p>
-              </div>
-            </div>
+<div class="team-section">
+  
+  <a href="team.html" style="text-decoration: none; color: black;"><div class="team-member">
+    <img
+            src="assests/hussain.jpeg"
+            alt=""
+            class="w-100 card-img-top"
+          />
+          <div class="p-4">
+            <h5 class="mb-0">Mohammad Hussain</h5>
+            <p class="small text-muted" style="margin-bottom: 0 !important;">Technology Expert</p>
+            <p class="small text-muted" >B.Tech</p>
           </div>
-        </div>
-      </div>
-    </div>
+   
+  </div>
+</a>
+<a href="team.html" style="text-decoration: none;color: black;"> <div class="team-member">
+    <img
+    src="assests/swapnil.jpeg"
+    alt=""
+    class="w-100 card-img-top"
+  />
+  <div class="p-4">
+    <h5 class="mb-0">Swapnil Srivastav</h5>
+    <p class="small text-muted" style="margin-bottom: 0 !important;">Operation Head</p>
+    <p class="small text-muted">B.Tech</p>
+  </div>
+  </div></a>
+</div>
+
     <!--------Contact us---------------------->
 
     <div class="container" id="contactss" style="background-color: #f4fafa">

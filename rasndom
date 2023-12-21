@@ -1,0 +1,195 @@
+
+<div class="container" style="background-color: white; border-radius: 24px;">
+    <h1 class=" main-heading">Projects</h1>
+
+    <!------project1------->
+    <div class="container first">
+        <h2 class="second-heading">EASTERN RAILWAY - HOWRAH STATION (W.B)</h2>
+  
+    <div class="gallery-wrapper">
+        <div class="gallery-inner">
+            <div class="gallery-img">
+                <img src="assests/project1.jpeg" alt="">
+            </div>
+            <div class="gallery-img">
+                <img src="assests/project1.1.jpeg" alt="" height="203">
+            </div>
+            <div class="gallery-img">
+                <img src="assests/project1.2.jpeg" alt="" height="203">
+            </div>
+          
+        
+        
+        </div>
+    </div>
+</div>
+
+<!------project2------->
+<div class="container">
+    <h2 class="second-heading">FORT WILLIAM JUTE MILL (W.B)</h2>
+
+<div class="gallery-wrapper">
+    <div class="gallery-inner">
+        <div class="gallery-img">
+            <img src="assests/project2.jpeg" alt="" height="203">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/project2.1.jpeg" alt="" height="203">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/project2.2.jpeg" alt="" height="203">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/project2.3.jpeg" alt="" height="203">
+        </div>
+      
+    
+    
+    </div>
+</div>
+</div>
+
+<!------project3------->
+<div class="container">
+    <h2 class="second-heading">ALLIANCE MILL (LESSEES) LTD. (W.B)</h2>
+
+<div class="gallery-wrapper">
+    <div class="gallery-inner">
+        <div class="gallery-img">
+            <img src="assests/project3.jpeg" alt="" height="203" width="360">
+        </div>
+       
+        <div class="gallery-img">
+            <img src="assests/project3.2.jpeg" alt="" height="203">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/project3.3.jpeg" alt="" height="203">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/project3.1.jpeg" alt="" height="203" width="360">
+        </div>
+      
+    
+    
+    </div>
+</div>
+</div>
+
+<!------project4------->
+<div class="container">
+    <h2 class="second-heading">PROJECT NAME - BOWREAH JUTE MILL (W.B)</h2>
+
+<div class="gallery-wrapper">
+    <div class="gallery-inner">
+        <div class="gallery-img">
+            <img src="assests/p4.jpeg" alt="" height="203" width="360">
+        </div>
+       
+        <div class="gallery-img">
+            <img src="assests/p4.1.jpeg" alt="" height="203">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/p4.2.jpeg" alt="" height="203">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/p4.3.jpeg" alt="" height="203">
+        </div>
+      
+    
+    
+    </div>
+</div>
+</div>
+<!------project5------->
+<div class="container">
+    <h2 class="second-heading">PROSPACE INDUSTRIAL PARKS PVT. LTD. (W.B)</h2>
+
+<div class="gallery-wrapper">
+    <div class="gallery-inner">
+        <div class="gallery-img">
+            <img src="assests/p5.jpeg" alt="" height="203" width="360">
+        </div>
+       
+        <div class="gallery-img">
+            <img src="assests/p5.1.jpeg" alt="" height="203">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/p5.2.jpeg" alt="" height="203">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/p5.3.jpeg" alt="" height="203">
+        </div>
+      
+    
+    
+    </div>
+</div>
+</div>
+
+<!------project6------->
+<div class="container">
+    <h2 class="second-heading">ASBESCO (INDIA) PVT. LTD. (W.B)</h2>
+
+<div class="gallery-wrapper">
+    <div class="gallery-inner">
+        <div class="gallery-img">
+            <img src="assests/p6.jpeg" alt="" height="203" width="360">
+        </div>
+       
+        <div class="gallery-img">
+            <img src="assests/p6.1.jpeg" alt="" height="203"  width="360">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/p6.2.jpeg" alt="" height="203"  width="360">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/p6.3.jpeg" alt="" height="203"  width="360">
+        </div>
+        <div class="gallery-img">
+            <img src="assests/p6.4.jpeg" alt="" height="203"  width="360">
+        </div>
+      
+    
+    
+    </div>
+</div>
+</div>
+</div>
+
+
+
+<div class="row pb-5 mb-4">
+    <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0">
+          <img
+            src="assests/hussain.jpeg"
+            alt=""
+            class="w-100 card-img-top"
+          />
+          <div class="p-4">
+            <h5 class="mb-0">Mohammad Hussain</h5>
+            <p class="small text-muted">B.Tech</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 mb-4 mb-lg-0">
+      <!-- Card-->
+      <div class="card shadow-sm border-0 rounded">
+        <div class="card-body p-0">
+          <img
+            src="assests/swapnil.jpg"
+            alt=""
+            class="w-100 card-img-top"
+          />
+          <div class="p-4">
+            <h5 class="mb-0">Swapnil Srivastav</h5>
+            <p class="small text-muted">B.Tech</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
